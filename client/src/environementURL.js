@@ -1,4 +1,4 @@
-const productionURL = "https://foodchive-api.onrender.com";
+const productionURL = "https://foodchive-api-u1da.onrender.com";
 const developmentURL = "http://localhost:3000";
 
 export const environmentURL =
