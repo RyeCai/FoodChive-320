@@ -28,7 +28,7 @@ make build
 This will create necessary files and use npm install to install all the necessary packages for the build. After this, the app should be in development mode. Open http://localhost:3000 to view it in your browser. The page will reload when you make changes. You may also see temporary lint errors in the console.
 
 ### Front Page URL
-The app is being hosted remotely and can be accessed here: https://foodchive.onrender.com/. 
+The app is being hosted remotely and can be accessed here: https://foodchive-xm1l.onrender.com/. 
 
 ### Which Command are Working
 All the previously mentioned commands in regards to installing and running the software should be working, and there are no related issues that we are aware of.
