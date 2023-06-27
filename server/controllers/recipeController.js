@@ -6,7 +6,7 @@ import Recipe from "../models/recipeModel.js";
 export const getRecipes = asyncHandler(async (req, res) => {
   try {
     const recipes = await Recipe.find();
-    res.header("Access-Control-Allow-Origin", "https://foodchive-api-u1da.onrender.com"); // update to match the domain you will make the request from
+    res.header("Access-Control-Allow-Origin", "https://foodchive-xm1l.onrender.com"); // update to match the domain you will make the request from
     res.header(
       "Access-Control-Allow-Headers",
       "Origin, X-Requested-With, Content-Type, Accept"
@@ -22,7 +22,7 @@ export const getRecipes = asyncHandler(async (req, res) => {
 export const getRecipe = asyncHandler(async (req, res) => {
   try {
     const recipe = await Recipe.find({ _id: req.body.id });
-    res.header("Access-Control-Allow-Origin", "https://foodchive-api-u1da.onrender.com"); // update to match the domain you will make the request from
+    res.header("Access-Control-Allow-Origin", "https://foodchive-xm1l.onrender.com"); // update to match the domain you will make the request from
     res.header(
       "Access-Control-Allow-Headers",
       "Origin, X-Requested-With, Content-Type, Accept"
